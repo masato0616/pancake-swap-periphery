@@ -4,8 +4,8 @@ import { deployContract } from 'ethereum-waffle'
 
 import { expandTo18Decimals } from './utilities'
 
-import PancakeFactory from '@uniswap/v2-core/build/PancakeFactory.json'
-import IPancakePair from '@uniswap/v2-core/build/IPancakePair.json'
+import PancakeFactory from '@pancakeswap-libs/pancake-swap-core/build/PancakeFactory.json'
+import IPancakePair from '@pancakeswap-libs/pancake-swap-core/build/IPancakePair.json'
 
 import ERC20 from '../../build/ERC20.json'
 import WETH9 from '../../build/WETH9.json'

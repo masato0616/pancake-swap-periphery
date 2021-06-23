@@ -15,8 +15,10 @@
     "contracts"
   ],
   "dependencies": {
+    "@pancakeswap-libs/pancake-swap-core": "https://github.com/masato0616/pancake-swap-core.git",
     "@uniswap/lib": "1.1.1",
     "@uniswap/v2-core": "^1.0.1",
+    "truffle": "^5.3.1",
     "truffle-hdwallet-provider": "^1.0.17",
     "truffle-plugin-verify": "^0.4.0"
   },
